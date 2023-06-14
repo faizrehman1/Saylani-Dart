@@ -20,7 +20,6 @@ void main(){
    print(i>=j);
 
    //Logical Operator
-
     print(i < 100 && j > 10);
 
   // OR
