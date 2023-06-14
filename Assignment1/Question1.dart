@@ -1,5 +1,7 @@
-//Q.1: Create two integer variables length and breadth and
-//assign values then check if they are square values or rectangle values.
+/*Q.1: Create two integer variables length and breadth and
+assign values then check if they are square values or rectangle values.
+*/
+
 
 void main() {
   int lenght = 12;
