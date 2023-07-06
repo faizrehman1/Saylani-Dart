@@ -5,12 +5,18 @@ Input: 17
 Output: 17 is a prime number.
 */
 
-void main(){
-
-  var number = 17;
-
-  for(int i=0;i<=17;i++){
-    
+void main() {
+  var number = 18;
+  var flag = true;
+  for (int i = 2; i <= number / 2; i++) {
+    if (number % i == 0) {
+      print('this $number is not prime number');
+      flag = false;
+      break;
+    }
   }
 
+  if (flag) {
+    print('this $number is prime number');
+  }
 }
