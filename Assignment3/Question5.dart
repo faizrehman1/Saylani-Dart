@@ -7,11 +7,12 @@ Output: Sum of digits: 15
 
 */
 
-void main(){
+void main() {
+  var number = 12345;
+  int result = 0;
+  for (int i = number; i > 0; i = (i / 10).floor()) {
+    result += (i % 10);
+  }
 
-  var number  = 12345;
-    
-
-
-
+  print(result);
 }
